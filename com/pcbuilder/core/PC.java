@@ -1,4 +1,4 @@
-
+package com.pcbuilder.core;
 public class PC {
     private Cpu cpu;
     private Ram ram;

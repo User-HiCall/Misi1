@@ -1,3 +1,4 @@
+package com.pcbuilder.core;
 public class Ssd extends Storage {
     public Ssd(int price,String name){
         super(price,name);

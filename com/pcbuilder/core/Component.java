@@ -1,3 +1,5 @@
+package com.pcbuilder.core;
+
 public class Component {
     protected int price;
     protected String name;

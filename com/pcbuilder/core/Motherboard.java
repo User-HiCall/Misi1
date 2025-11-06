@@ -1,3 +1,4 @@
+package com.pcbuilder.core;
 public class Motherboard extends MainComponent {
     public Motherboard(int price, String name) {
         super(price, name);

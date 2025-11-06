@@ -1,3 +1,4 @@
+package com.pcbuilder.core;
 public abstract class Storage extends Component {
         public Storage (int price, String name){
             super(price, name);
