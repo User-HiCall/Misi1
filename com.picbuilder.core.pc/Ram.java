@@ -6,4 +6,7 @@ public class Ram extends MainComponent {
     public void process () {
         System.out.println("Ram detected");
     }
+    public void size(){
+        System.out.println("61 gb");
+    }
 }
