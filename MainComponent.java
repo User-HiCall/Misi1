@@ -5,4 +5,8 @@ public class MainComponent extends Component () {
     public Component(int price, String name) {
         super(price, name);
     }
+
+    public void process() {
+        
+    }
 }
