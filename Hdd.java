@@ -1,6 +1,6 @@
 public class Hdd extends Storage {
-    public Hdd() {
-
+    public Hdd(int price,String name) {
+        super(price, name);
     }
 
 }
