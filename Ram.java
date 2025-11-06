@@ -6,6 +6,5 @@ public class Ram extends MainComponent {
 
     public void process () {
         System.out.println("Ram detected");
-
     }
 }
