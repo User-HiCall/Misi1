@@ -11,4 +11,8 @@ public class Component {
     public String getName(){
         return name;
     }
+    // added
+    public int getPrice() {
+        return price;
+    }
 }
