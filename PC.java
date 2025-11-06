@@ -16,8 +16,8 @@ public class PC{
     public void useMouse(Mouse mouse){
         mouse.run();
     }
-    public void useMonitor(Monitor monitor){
-        monitor.run();
+    public void useMonitor(Monitors monitors){
+        monitors.run();
     }
     public void useKeyboard (Keyboard keyboard){
         keyboard.run();
