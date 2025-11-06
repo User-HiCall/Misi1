@@ -1,10 +1,12 @@
 
 public class PC{
+    private String name;
     private Cpu cpu;
     private Ram ram;
     private Motherboard mobo;
     private Storage storage;
-    public PC(Storage storage){
+    public PC(String name,Storage storage){
+        this.name=name;
         cpu=new Cpu(1000,"core i67");
         ram=new Ram(1000,"61 gb ram");
         this.storage=storage;
@@ -20,5 +22,8 @@ public class PC{
     }
     public void useKeyboard (Keyboard keyboard){
         keyboard.run();
+    }
+    public String getName(){
+        return name;
     }
 }
