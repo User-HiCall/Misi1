@@ -4,5 +4,6 @@ public class Cpu extends MainComponent {
     }
 
     public void process() {
+        System.out.println("Cpu Online");
     }
 }
