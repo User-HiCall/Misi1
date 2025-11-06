@@ -1,5 +1,4 @@
 public class Ram extends MainComponent {
-<<<<<<< HEAD
     public Ram (int price, String name) {
         super(price, name);
     }
