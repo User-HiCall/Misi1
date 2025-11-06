@@ -1,5 +1,5 @@
 public class Peripheral extends Component{
-    public Peripheral() {
-        
+    public Peripheral(int price,String name) {
+        super(price,name);
     }
 }

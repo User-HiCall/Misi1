@@ -1,4 +1,4 @@
-public class Component () {
+public class Component {
     protected int price;
     protected String name;
 
