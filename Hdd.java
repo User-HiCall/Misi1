@@ -1,4 +1,4 @@
-public class Hdd extends Storage{
+public class Hdd extends Storage {
     public Hdd() {
 
     }
