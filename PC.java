@@ -1,4 +1,3 @@
-import javax.management.monitor.Monitor;
 
 public class PC{
     private Cpu cpu;
@@ -10,8 +9,8 @@ public class PC{
         ram=new Ram(1000,"61 gb ram");
         this.storage=storage;
     }
-    public void calculateTotalPrice(Mouse mouse,Keyboard keyboard,Monitor monitor){
-        return (cpu.price+ram.price+mobo.price+keyboard.price+monitor.price+storage.price+mouse.price);        
+    public int calculateTotalPrice(Mouse mouse,Keyboard keyboard,Monitors monitors){
+        return (cpu.price+ram.price+mobo.price+keyboard.price+monitors.price+storage.price+mouse.price);        
     }
     public void useMouse(Mouse mouse){
         mouse.run();
